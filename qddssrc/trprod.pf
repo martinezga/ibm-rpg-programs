@@ -1,0 +1,12 @@
+     A                                      UNIQUE              
+     A          R RETRPROD                                      
+     A            PRID           4S 0       COLHDG('P.ID')      
+     A            PRNAME        30A         COLHDG('P.NAME')    
+     A            PRPRIC        12S 2       COLHDG('P.PRICE')   
+     A            PRCRTS          Z         COLHDG('CRT TSTAMP')
+     A            PRCRUS        10A         COLHDG('CRT USER')  
+     A            PRUPTS          Z         COLHDG('UPD TSTAMP')
+     A            PRUPUS        10A         COLHDG('UPD USER')  
+     A            PRDETS          Z         COLHDG('DLT TSTAMP')
+     A            PRDEUS        10A         COLHDG('DLT USER')  
+     A          K PRID                                          

@@ -1,0 +1,18 @@
+                                            UNIQUE                   
+                R RETRPURC                                           
+                  PUID           3S 0       COLHDG('PU.ID')          
+                                            TEXT('PURCHASE ID')      
+                  PUCLIE    R               REFFLD(CLDNI TRCLIE)     
+                                            TEXT('CLIENT DNI')       
+                  PUPROD    R               REFFLD(PRID TRPROD)      
+                  PUQUAN         2S 0       COLHDG('PU.QUAN')        
+                                            TEXT('PURCHASE QUANTITY')
+     A            PUCRTS          Z         COLHDG('CRT TSTAMP')     
+     A            PUCRUS        10A         COLHDG('CRT USER')       
+     A            PUUPTS          Z         COLHDG('UPD TSTAMP')     
+     A            PUUPUS        10A         COLHDG('UPD USER')       
+     A            PUDETS          Z         COLHDG('DLT TSTAMP')     
+     A            PUDEUS        10A         COLHDG('DLT USER')       
+                K PUID                                               
+                K PUCLIE
+                K PUPROD
